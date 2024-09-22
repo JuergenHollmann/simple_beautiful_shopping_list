@@ -7,8 +7,12 @@ void main() {
     Product("Tomate", 19.99),
     Product("Apfel", 7.99),
     Product("Wassermelone", 34.99),
+    Product("Wassermelone MHD", 14.99),
     Product("Tee", 12.99),
-    Product("Lego", 649.99)
+    Product("Tee kleine Packung", 0.99),
+    Product("Lego", 649.99),
+    Product("Lego basic", 149.99),
+    Product("Minibagger", 1149.99),
   ];
 
   runApp(MainApp(products: products));

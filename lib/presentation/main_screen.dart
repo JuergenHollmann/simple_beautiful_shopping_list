@@ -22,9 +22,9 @@ class MainScreen extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 40),
-        // child: SeparatedListViewListContent(products: products),
+        child: SeparatedListViewListContent(products: products),
         // child: BuilderListViewListContent(products: products),
-        child: ColumnListContent(products: products),
+        // child: ColumnListContent(products: products),
       ),
     );
   }
